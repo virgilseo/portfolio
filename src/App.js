@@ -4,6 +4,7 @@ import Header from './Header.js';
 import Footer from './Footer.js';
 import About from './About.js';
 import Contact from './Contact.js';
+import Projects from './Projects.js';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
       <div className='App'>
         <Header />
         <About />
+        <Projects />
         <Contact />
         <Footer />
       </div>
