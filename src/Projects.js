@@ -6,7 +6,7 @@ class Projects extends Component {
 
     return(
 
-      <section>
+      <section id='projects'>
        <h3>Projects</h3>
       </section>
     )

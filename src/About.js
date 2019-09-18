@@ -6,7 +6,7 @@ class About extends Component {
 
     return (
 
-       <section>
+       <section id='about'>
        <h3>About me</h3>
        <img src='' alt=''/>
        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit enim nec lacus luctus rhoncus.

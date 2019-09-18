@@ -6,11 +6,11 @@ class Contact extends Component {
 
     return(
 
-      <section>
+      <section id='contact'>
         <h3>Contact</h3>
         <p>Social: </p>
         <p>GitHub: </p>
-        <p>Mail: </p>  
+        <p>Mail: </p>
       </section>
     )
   }

@@ -5,6 +5,7 @@ import Footer from './Footer.js';
 import About from './About.js';
 import Contact from './Contact.js';
 import Projects from './Projects.js';
+import Navigation from './Navigation';
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Header />
+        <Navigation />
         <About />
         <Projects />
         <Contact />
