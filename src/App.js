@@ -6,8 +6,19 @@ import About from './About.js';
 import Contact from './Contact.js';
 import Projects from './Projects.js';
 import Navigation from './Navigation';
+import ProjectInfo from './ProjectInfo';
+
+const projects = ProjectInfo
 
 class App extends Component {
+
+  state = {
+    projects: []
+  }
+
+  componentDidMount() {
+    this.setState({projects: projects})
+  }
 
   render() {
 
@@ -16,7 +27,7 @@ class App extends Component {
         <Header />
         <Navigation />
         <About />
-        <Projects />
+        <Projects projects={this.state.projects} />
         <Contact />
         <Footer />
       </div>
