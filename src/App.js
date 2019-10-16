@@ -12,6 +12,7 @@ const projects = ProjectInfo
 
 class App extends Component {
 
+  //Set the initial state
   state = {
     projects: []
   }
@@ -20,14 +21,28 @@ class App extends Component {
     this.setState({projects: projects})
   }
 
-  render() {
 
+  //Flip project container on user input
+
+  flipProject = (projectId) => {
+    let flippedProject = this.state.projects.filter((project) => project.id === projectId).map((project) =>
+    project.flipped === false ? project.flipped = true : project.flipped = false)
+
+    this.setState({projects: projects})
+    return flippedProject
+  }
+
+  render() {
+  
     return (
       <div className='App'>
         <Header />
         <Navigation />
         <About />
-        <Projects projects={this.state.projects} />
+        <Projects
+          projects={this.state.projects}
+          flipProject={this.flipProject}
+        />
         <Contact />
         <Footer />
       </div>
