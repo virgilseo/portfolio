@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+/* Projects */
+
 li {
   list-style-type: none;
 }
@@ -25,4 +27,19 @@ ul {
 
 .hide {
   display: none;
+}
+
+.project-flipped {
+  transform: rotateY(180deg);
+  transition-duration: 1s;
+}
+
+.project-flipped-back {
+  transform: rotateX(360deg);
+  transition-duration: 1s;
+}
+
+.show {
+  transform: rotateY(180deg);
+  transition-duration: 1s;
 }
