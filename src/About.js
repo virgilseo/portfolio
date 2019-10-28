@@ -8,7 +8,7 @@ class About extends Component {
 
        <section id='about'>
        <h3>About me</h3>
-       <img src='' alt=''/>
+       <img src='https://via.placeholder.com/150' alt='Profile'/>
        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit enim nec lacus luctus rhoncus.
            Sed finibus volutpat neque, tempor congue velit finibus non. Sed ut sagittis massa.
            Morbi bibendum, libero at vestibulum tempus, augue augue tincidunt magna, nec dignissim diam ex eu enim.
