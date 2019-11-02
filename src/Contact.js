@@ -7,7 +7,7 @@ class Contact extends Component {
     return(
 
       <section id='contact'>
-        <h3>Contact</h3>
+        <h3 className='section-title'>Contact</h3>
         <p>Social: </p>
         <p>GitHub: </p>
         <p>Mail: </p>

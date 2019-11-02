@@ -1,5 +1,64 @@
+/* App */
+
+html, body{
+  height: 100vh;
+  overflow: auto;
+  background-color: #212121;
+}
+
 .App {
-  text-align: center;
+  color: #ffffff;
+  font-size: 0.9em;
+}
+
+.section-title {
+  color: #80CBC4;
+}
+
+/* Header */
+
+.header {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px 4px 10px;
+  font-size: 0.6em;
+}
+
+/* Navigation */
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000000;
+  padding:  4px 10px 4px 10px;
+}
+
+/* About me */
+
+.profile-pic {
+  border-radius: 50%;
+  border: 3px solid #80CBC4;
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  padding: 0px 10px 0px 10px;
+}
+
+.bio-text {
+ padding: 8px;
+ background-color: #000000;
+ border-radius: 8px;
+ width: 90%;
 }
 
 /* Projects */
@@ -11,18 +70,24 @@ li {
 .project {
   background-color: black;
   color: white;
-  width: 15%;
+  width: 90%;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
+  margin-bottom: 14px;
 }
 
 ul {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#projects {
+  display: flex;
   align-items: center;
+  flex-flow: column;
 }
 
 .hide {
@@ -42,4 +107,22 @@ ul {
 .show {
   transform: rotateY(180deg);
   transition-duration: 1s;
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
 }
