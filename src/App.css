@@ -118,6 +118,31 @@ ul {
   flex-flow: column;
 }
 
+.social-logo {
+  width: 25%;
+}
+
+.linkedin-link {
+  margin-bottom: 10px;
+}
+
+.profile-links {
+  text-align: center;
+}
+
+.email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.email-text {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
 /* Footer */
 
 .footer-container {
