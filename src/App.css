@@ -1,6 +1,6 @@
 /* App */
 
-html, body{
+html, body {
   height: 100vh;
   overflow: auto;
   background-color: #212121;
@@ -8,11 +8,15 @@ html, body{
 
 .App {
   color: #ffffff;
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 .section-title {
   color: #80CBC4;
+}
+
+img {
+  max-width: 100%;
 }
 
 /* Header */
@@ -82,6 +86,8 @@ li {
 ul {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
 }
 
 #projects {
@@ -97,16 +103,68 @@ ul {
 .project-flipped {
   transform: rotateY(180deg);
   transition-duration: 1s;
+  text-align: center;
 }
 
 .project-flipped-back {
   transform: rotateX(360deg);
   transition-duration: 1s;
+  text-align: center;
 }
 
 .show {
   transform: rotateY(180deg);
   transition-duration: 1s;
+}
+
+.project-image {
+  width: 60%;
+}
+
+.project-btn {
+
+  padding: 8px 30px 8px 30px;
+  background-color: #ffffff;
+  border: 3px solid #80CBC4;
+  border-radius: 14px;
+  font-size: 0.9em;
+}
+
+.project-btn:hover {
+  background-color: #80CBC4;
+  color: #ffffff;
+  transition-duration: 0.2s;
+}
+
+.project-links {
+  text-decoration: none;
+  padding: 8px 22px 8px 22px;
+  background-color: #ffffff;
+  border: 3px solid #80CBC4;
+  border-radius: 14px;
+  font-size: 0.9em;
+  color: #000000;
+}
+
+.project-links:hover {
+  background-color: #80CBC4;
+  color: #ffffff;
+  transition-duration: 0.2s;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.back-btn {
+  font-size: 2em;
+  color: #80CBC4;
+  margin-bottom: 10px;
+}
+
+.back-btn:hover {
+  cursor: pointer;
 }
 
 /* Contact */
@@ -135,7 +193,6 @@ ul {
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
-  font-size: 1.1em;
 }
 
 .email-text {

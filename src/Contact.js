@@ -5,7 +5,7 @@ import GithubLogo from './Logo/GitHub_Logo_White.png'
 class Contact extends Component {
 
   render() {
-    console.log(LinkedinLogo)
+    
     return(
 
       <section id='contact'>

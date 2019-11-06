@@ -12,16 +12,18 @@ class Projects extends Component {
         {this.props.projects.map((project) => (
           <li key={project.id} className={project.flipped === true ? 'project project-flipped' : 'project project-flipped-back'}>
             <div className={project.flipped === false  ? '' : 'hide'}>
-              <h4>{project.title}</h4>
-              <i>happy</i>
+              <h4 className='project-title'>{project.title}</h4>
+              <img src={project.image} alt={project.title} className='project-image'/>
               <p>{project.tag}</p>
-              <button onClick={() => this.props.flipProject(project.id)}>More details</button>
+              <button className='project-btn' onClick={() => this.props.flipProject(project.id)}>More details</button>
             </div>
             <div className={project.flipped === true ? 'show' : 'hide'}>
-              <button onClick={() => this.props.flipProject(project.id)}>Back</button>
+              <i className='material-icons back-btn' onClick={() => this.props.flipProject(project.id)}>arrow_back</i>
               <p>{project.description}</p>
-              <a href={project.gitLink}>View Code</a>
-              <a href={project.liveLink}>Live Page</a>
+              <div className='links-container'>
+                <a className='project-links' href={project.gitLink}>View Code</a>
+                <a className='project-links' href={project.liveLink}>Live Page</a>
+              </div>
             </div>
           </li>
         ))}
