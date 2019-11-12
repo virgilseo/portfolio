@@ -12,7 +12,7 @@ html, body {
 }
 
 .section-title {
-  color: #80CBC4;
+  border-bottom: 3px solid #80CBC4;
 }
 
 img {
@@ -24,10 +24,16 @@ img {
 .header {
   color: #ffffff;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 4px 10px 4px 10px;
   font-size: 0.6em;
+}
+
+.inner-header {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Navigation */
@@ -37,11 +43,21 @@ img {
   color: #ffffff;
 }
 
+.nav-container a:hover {
+  border-bottom: 3px solid #80CBC4;
+}
+
+.nav-container a {
+  border-bottom: 3px solid transparent;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   background-color: #000000;
-  padding:  4px 10px 4px 10px;
+  padding:  10px 12px 10px 12px;
+  height: 3vh;
 }
 
 /* About me */
@@ -55,14 +71,13 @@ img {
   display: flex;
   align-items: center;
   flex-flow: column;
-  padding: 0px 10px 0px 10px;
 }
 
 .bio-text {
  padding: 8px;
  background-color: #000000;
  border-radius: 8px;
- width: 90%;
+ width: 85%;
 }
 
 /* Projects */
@@ -74,13 +89,14 @@ li {
 .project {
   background-color: black;
   color: white;
-  width: 90%;
+  width: 85%;
   height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 8px;
   margin-bottom: 14px;
+  padding: 8px;
 }
 
 ul {
@@ -118,7 +134,7 @@ ul {
 }
 
 .project-image {
-  width: 60%;
+  width: 40%;
 }
 
 .project-btn {
@@ -127,13 +143,15 @@ ul {
   background-color: #ffffff;
   border: 3px solid #80CBC4;
   border-radius: 14px;
-  font-size: 0.9em;
+  font-weight: 600;
+  width: 60%
 }
 
 .project-btn:hover {
   background-color: #80CBC4;
   color: #ffffff;
   transition-duration: 0.2s;
+  cursor: pointer;
 }
 
 .project-links {
@@ -142,8 +160,8 @@ ul {
   background-color: #ffffff;
   border: 3px solid #80CBC4;
   border-radius: 14px;
-  font-size: 0.9em;
   color: #000000;
+  font-weight: 500;
 }
 
 .project-links:hover {
@@ -159,12 +177,16 @@ ul {
 
 .back-btn {
   font-size: 2em;
-  color: #80CBC4;
   margin-bottom: 10px;
 }
 
 .back-btn:hover {
   cursor: pointer;
+}
+
+.project-tags {
+  font-size: 1.7em;
+  color: #80CBC4;
 }
 
 /* Contact */

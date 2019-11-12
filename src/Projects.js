@@ -19,7 +19,7 @@ class Projects extends Component {
             </div>
             <div className={project.flipped === true ? 'show' : 'hide'}>
               <i className='material-icons back-btn' onClick={() => this.props.flipProject(project.id)}>arrow_back</i>
-              <p>{project.description}</p>
+              <p className='project-tags'>{project.description}</p>
               <div className='links-container'>
                 <a className='project-links' href={project.gitLink}>View Code</a>
                 <a className='project-links' href={project.liveLink}>Live Page</a>

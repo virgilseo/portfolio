@@ -6,8 +6,10 @@ class Header extends Component {
 
     return (
       <header className='header'>
-        <h1>Virgil Avram</h1>
-        <h2>Front-End Web Developer</h2>
+        <div className='inner-header'>
+          <h1>Virgil Avram</h1>
+          <h2>Front-End Web Developer</h2>
+        </div>
       </header>
     )
   }
