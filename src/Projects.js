@@ -21,8 +21,8 @@ class Projects extends Component {
               <i className='material-icons back-btn' onClick={() => this.props.flipProject(project.id)}>arrow_back</i>
               <p className='project-tags'>{project.description}</p>
               <div className='links-container'>
-                <a className='project-links' href={project.gitLink}>View Code</a>
-                <a className='project-links' href={project.liveLink}>Live Page</a>
+                <a className='project-links' href={project.gitLink} target="_blank" rel='noopener noreferrer'>View Code</a>
+                <a className='project-links' href={project.liveLink} target="_blank" rel='noopener noreferrer'>Live Page</a>
               </div>
             </div>
           </li>
