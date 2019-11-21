@@ -30,7 +30,7 @@ img {
 }
 
 .inner-header {
-  width: 85%;
+  width: 89%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,7 +74,7 @@ img {
 }
 
 .bio-text {
- padding: 8px;
+ padding: 2%;
  background-color: #000000;
  border-radius: 8px;
  width: 85%;
@@ -96,7 +96,7 @@ li {
   align-items: center;
   border-radius: 8px;
   margin-bottom: 14px;
-  padding: 8px;
+  padding: 2%;
 }
 
 ul {
