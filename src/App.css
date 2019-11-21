@@ -131,6 +131,7 @@ ul {
 .show {
   transform: rotateY(180deg);
   transition-duration: 1s;
+  height: 80%;
 }
 
 .project-image {
@@ -158,12 +159,13 @@ ul {
 
 .project-links {
   text-decoration: none;
-  padding: 8px 22px 8px 22px;
   background-color: #ffffff;
   border: 3px solid #80CBC4;
   border-radius: 14px;
   color: #000000;
   font-weight: 500;
+  width: 36%;
+  padding: 5px;
 }
 
 .project-links:hover {
@@ -175,6 +177,10 @@ ul {
 .links-container {
   display: flex;
   justify-content: space-around;
+  position: absolute;
+  bottom: 20px;
+  width: 98%;
+  left: 2%;
 }
 
 .back-btn {
