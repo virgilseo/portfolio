@@ -7,9 +7,11 @@ class Navigation extends Component {
     return(
 
       <nav className='nav-container'>
-        <a href='#about' className='nav-link'>About</a>
-        <a href='#projects' className='nav-link'>Projects</a>
-        <a href='#contact' className='nav-link'>Contact</a>
+        <div className='inner-nav'>
+          <a href='#about' className='nav-link'>About</a>
+          <a href='#projects' className='nav-link'>Projects</a>
+          <a href='#contact' className='nav-link'>Contact</a>
+        </div>
       </nav>
     )
   }

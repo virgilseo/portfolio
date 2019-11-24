@@ -53,11 +53,16 @@ img {
 
 .nav-container {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   background-color: #000000;
-  padding:  10px 12px 10px 12px;
-  height: 3vh;
+  height: 6vh;
+}
+
+.inner-nav {
+  display: flex;
+  width: 89%;
+  justify-content: space-around;
 }
 
 /* About me */
