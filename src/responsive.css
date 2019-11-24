@@ -32,3 +32,28 @@
     font-size: 0.7em;
   }
 }
+
+@media only screen and (min-width: 800px) {
+
+  .project {
+    width: 28%;
+    font-size: 1em;
+  }
+
+  .project-links {
+    padding: 7px;
+    font-size: 0.9em;
+  }
+
+  .project-tags {
+    font-size: 1.4em;
+  }
+
+  .social-logo {
+    width: 14%;
+  }
+
+  .header {
+    font-size: 0.8em;
+  }
+}
