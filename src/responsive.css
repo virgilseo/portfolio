@@ -57,3 +57,35 @@
     font-size: 0.8em;
   }
 }
+
+@media only screen and (min-width: 1100px) {
+
+  .inner-header {
+    width: 70%;
+  }
+
+  .inner-nav {
+    width: 70%;
+  }
+
+
+  .bio-text {
+    width: 66%;
+  }
+
+   ul {
+     width: 70%;
+   }
+
+   .social-logo {
+     width: 11%;
+   }
+
+   .header {
+     font-size: 0.9em;
+   }
+
+   .project-tags {
+     font-size: 1.6em;
+   }
+}
