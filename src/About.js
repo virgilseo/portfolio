@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ProfilePic from './images/portfolio-pic.jpg';
 
 class About extends Component {
 
@@ -8,7 +9,7 @@ class About extends Component {
 
        <section id='about'>
        <h3 className='section-title'>About me</h3>
-       <img src='https://via.placeholder.com/150' alt='Profile' className='profile-pic'/>
+       <img src={ProfilePic} alt='Profile' className='profile-pic'/>
        <p className='bio-text'> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus suscipit enim nec lacus luctus rhoncus.
            Sed finibus volutpat neque, tempor congue velit finibus non. Sed ut sagittis massa.
            Morbi bibendum, libero at vestibulum tempus, augue augue tincidunt magna, nec dignissim diam ex eu enim.
