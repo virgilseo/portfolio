@@ -8,7 +8,9 @@ html, body {
 
 .App {
   color: #ffffff;
-  font-size: 1em;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
 }
 
 .section-title {
@@ -155,6 +157,7 @@ ul {
   left: 25%;
   width: 50%;
   height: 9%;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .project-btn:hover {
@@ -234,7 +237,6 @@ ul {
 
 .email-text {
   margin-left: 10px;
-  font-weight: 600;
 }
 
 /* Footer */
