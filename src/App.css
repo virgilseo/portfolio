@@ -243,7 +243,15 @@ ul {
 
 .footer-container {
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   background-color: #000000;
+  line-height: 0.2em;
+}
+
+.attr-link {
+  text-decoration: none;
+  color: #80CBC4;
+  font-weight: 550;
 }
