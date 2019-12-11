@@ -16,10 +16,6 @@
     align-items: center;
   }
 
-  .social-logo {
-    width: 20%;
-  }
-
   .inner-nav {
     justify-content: flex-start;
   }
@@ -49,10 +45,6 @@
     font-size: 1.4em;
   }
 
-  .social-logo {
-    width: 14%;
-  }
-
   .header {
     font-size: 0.8em;
   }
@@ -72,17 +64,12 @@
     width: 70%;
   }
 
-
   .bio-text {
     width: 66%;
   }
 
    ul {
      width: 70%;
-   }
-
-   .social-logo {
-     width: 11%;
    }
 
    .header {

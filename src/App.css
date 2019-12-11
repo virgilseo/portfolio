@@ -211,21 +211,36 @@ ul {
 
 #contact {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: column;
 }
 
-.social-logo {
-  width: 25%;
-}
-
-.linkedin-link {
+.linkedin-container, .git-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 10px;
 }
 
-.profile-links {
-  text-align: center;
+.logo-links {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 14px;
+  font-weight: 600;
+  padding: 4px 40px;
+  background-color: #ffffff;
+  border: 3px solid #80CBC4;
+}
+
+.logo-links:hover {
+  color: #ffffff;
+  background-color: #80CBC4;
+}
+
+.social-logo {
+  width: 40px;
 }
 
 .email-container {
@@ -237,6 +252,17 @@ ul {
 
 .email-text {
   margin-left: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.email-text:hover {
+  color: #80CBC4;
+}
+
+
+.email-icon {
+  font-size: 30px;
 }
 
 /* Footer */
