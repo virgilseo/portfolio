@@ -3,7 +3,7 @@
 html, body {
   height: 100vh;
   overflow: auto;
-  background-color: #212121;
+  background-color: #202124;
 }
 
 .App {
@@ -15,6 +15,7 @@ html, body {
 
 .section-title {
   border-bottom: 3px solid #80CBC4;
+  padding: 2px 0px;
 }
 
 img {
@@ -43,14 +44,15 @@ img {
 .nav-link {
   text-decoration: none;
   color: #ffffff;
+  padding: 10px 0px;
 }
 
 .nav-container a:hover {
-  border-bottom: 3px solid #80CBC4;
+  border-bottom: 4px solid #80CBC4;
 }
 
 .nav-container a {
-  border-bottom: 3px solid transparent;
+  border-bottom: 4px solid transparent;
 }
 
 .nav-container {
@@ -82,11 +84,17 @@ img {
   flex-flow: column;
 }
 
-.bio-text {
+.about-container {
  padding: 2%;
  background-color: #000000;
  border-radius: 8px;
  width: 85%;
+ margin-top: 20px;
+ font-size: 1.1em;
+}
+
+.tech-title {
+  color: #80CBC4;
 }
 
 /* Projects */
@@ -126,7 +134,7 @@ ul {
 }
 
 .project-flipped {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
   transition-duration: 1s;
   text-align: center;
 }
@@ -216,11 +224,22 @@ ul {
   flex-flow: column;
 }
 
+.contact-container {
+  width: 85%;
+  background-color: #000000;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .linkedin-container, .git-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
+  padding: 5px 0px;
 }
 
 .logo-links {
@@ -237,6 +256,7 @@ ul {
 .logo-links:hover {
   color: #ffffff;
   background-color: #80CBC4;
+  transition-duration: 0.2s;
 }
 
 .social-logo {
@@ -247,17 +267,17 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .email-text {
   margin-left: 10px;
   text-decoration: none;
   color: #ffffff;
+  border-bottom: 3px solid transparent;
 }
 
 .email-text:hover {
-  color: #80CBC4;
+  border-bottom: 3px solid #80CBC4;
 }
 
 
