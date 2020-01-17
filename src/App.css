@@ -141,19 +141,19 @@ ul {
 
 .project-flipped {
   transform: rotateY(-180deg);
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   text-align: center;
 }
 
 .project-flipped-back {
   transform: rotateX(360deg);
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   text-align: center;
 }
 
 .show {
   transform: rotateY(180deg);
-  transition-duration: 1s;
+  transition-duration: 0.8s;
   height: 80%;
 }
 
