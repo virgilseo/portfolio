@@ -1,6 +1,11 @@
 import React, {Component} from 'react';
 import ProfilePic from './images/portfolio-pic.jpg';
 
+// Store tech skills text in a array
+
+const skills = ['react.js', 'angular.js', 'ember.js', 'javascript', 'html', 'css', 'responsive design', 'object oriented programing',
+                'ajax', 'jquery', 'way-aria', 'test driven development', 'git', 'npm', 'grunt', 'gulp']
+
 class About extends Component {
 
   render() {
@@ -17,9 +22,11 @@ class About extends Component {
               web based applications.</p>
            <div className='tech-container'>
              <h4 className='tech-title'>Tech stack</h4>
-             <p className='tech-text'>#react.js #javascript #angular.js  #ember.js #html #css #responsive design #object oriented programing
-                 #ajax #jquery #way-aria #test driven development #git #npm #grunt #gulp
-             </p>
+             <div className='skills-container'>
+               {skills.map((skill, index) =>
+                <span  key={index} className='skill-text'>{skill}</span>
+               )}
+             </div>
            </div>
          </div>
       </section>
