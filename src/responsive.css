@@ -58,6 +58,23 @@
     font-size: 1.3em;
   }
 
+  /* Custom ScrollBar */
+
+  /* width */
+  ::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(128, 203, 196, 0.40);
+    border-radius: 6px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #80CBC4;
+  }
+
 }
 
 @media only screen and (min-width: 1100px) {
