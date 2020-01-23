@@ -146,7 +146,6 @@ ul {
 }
 
 .project-flipped-back {
-  transform: rotateX(360deg);
   transition-duration: 0.8s;
   text-align: center;
 }
@@ -154,7 +153,6 @@ ul {
 .show {
   transform: rotateY(180deg);
   transition-duration: 0.8s;
-  height: 80%;
 }
 
 .project-image {
@@ -166,11 +164,7 @@ ul {
   border: 3px solid #80CBC4;
   border-radius: 20px;
   font-weight: 600;
-  position: absolute;
-  bottom: 10px;
-  left: 25%;
-  width: 50%;
-  height: 9%;
+  padding: 6px 35px;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -181,15 +175,30 @@ ul {
   cursor: pointer;
 }
 
+.button-container {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-container {
+  height: 280px;
+}
+
 .project-links {
   text-decoration: none;
   background-color: #ffffff;
   border: 3px solid #80CBC4;
   border-radius: 20px;
   color: #000000;
-  font-weight: 800;
-  width: 36%;
-  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 16px;
+  height: 35%;
+  font-weight: 600;
+  font-size: 1.1em;
 }
 
 .project-links:hover {
@@ -198,13 +207,18 @@ ul {
   transition-duration: 0.2s;
 }
 
+.flip-content-container {
+  height: 280px;
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
 .links-container {
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  bottom: 5px;
-  width: 98%;
-  left: 2%;
+  height: 70px;
 }
 
 .back-btn {
