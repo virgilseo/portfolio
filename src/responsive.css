@@ -61,6 +61,10 @@
     padding: 18px 0px;
   }
 
+  .footer-container {
+    padding: 10px 0px;
+  }
+
   /* Custom ScrollBar */
 
   /* width */
@@ -88,11 +92,7 @@
   .inner-header {
     width: 70%;
   }
-
-  .header {
-    height: 10vh;
-  }
-
+  
   .inner-nav {
     width: 70%;
   }

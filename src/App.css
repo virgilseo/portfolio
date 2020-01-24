@@ -314,8 +314,9 @@ ul {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.40);
-  line-height: 0.2em;
   height: 10vh;
+  padding: 20px 0px;
+  text-align: center;
 }
 
 .attr-link {
