@@ -53,6 +53,14 @@
     font-size: 1.3em;
   }
 
+  .nav-container {
+    height: 60px;
+  }
+
+  .nav-link {
+    padding: 18px 0px;
+  }
+
   /* Custom ScrollBar */
 
   /* width */
@@ -83,10 +91,6 @@
 
   .header {
     height: 10vh;
-  }
-
-  .nav-container {
-    height: 8vh;
   }
 
   .inner-nav {
@@ -133,4 +137,11 @@
      font-size: 0.9em
    }
 
+}
+
+@media only screen and (max-width: 360px) {
+
+  .header {
+    font-size: 0.5em;
+  }
 }
