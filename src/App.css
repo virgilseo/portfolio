@@ -57,7 +57,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #505050;
+  background-image: linear-gradient( #505050, #787878);
   height: 40px;
   position: sticky;
   top: 0px;
@@ -124,6 +124,7 @@ li {
   border-radius: 8px;
   margin-bottom: 14px;
   padding: 2%;
+  text-align: center;
 }
 
 ul {
@@ -141,22 +142,6 @@ ul {
 
 .hide {
   display: none;
-}
-
-.project-flipped {
-  transform: rotateY(-180deg);
-  transition-duration: 0.8s;
-  text-align: center;
-}
-
-.project-flipped-back {
-  transition-duration: 0.8s;
-  text-align: center;
-}
-
-.show {
-  transform: rotateY(180deg);
-  transition-duration: 0.8s;
 }
 
 .project-image {
@@ -216,7 +201,6 @@ ul {
   display: flex;
   align-items: center;
   flex-flow: column;
-  justify-content: center;
 }
 
 .links-container {
@@ -227,8 +211,8 @@ ul {
 
 .back-btn {
   font-size: 2.1em;
-  position: absolute;
-  top: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .back-btn:hover {
@@ -334,7 +318,7 @@ ul {
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.40);
+  background: rgba(0, 0, 0, 0.40);
   height: 10vh;
   padding: 20px 0px;
   text-align: center;
