@@ -9,7 +9,7 @@ class Contact extends Component {
     return(
 
       <section id='contact'>
-        <h3 className='section-title'>Contact</h3>
+        <h3 className='contact-title'>Contact</h3>
         <div className='contact-container'>
           <div className='linkedin-container'>
             <img src={LinkedinLogo} alt='Linkedin-profile' className='social-logo'/>
