@@ -29,7 +29,7 @@
   }
 
   .contact-container{
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
@@ -124,7 +124,7 @@
    }
 
    .contact-container {
-     width: 66%;
+     width: 62%;
    }
 
    .project-links {

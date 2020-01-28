@@ -84,10 +84,10 @@ img {
 }
 
 .about-container {
- padding: 2%;
+ padding: 4%;
  background-color: rgba(0, 0, 0, 0.50);
  border-radius: 8px;
- width: 85%;
+ width: 81%;
  margin-top: 20px;
  font-size: 1.1em;
 }
@@ -224,7 +224,7 @@ ul {
   border: 1px solid #80CBC4;
   margin-right: 10px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 5px;
   padding: 4px 10px;
 }
 
@@ -250,21 +250,21 @@ ul {
 }
 
 .contact-container {
-  width: 85%;
+  width: 81%;
   background-color: rgba(0, 0, 0, 0.50);
   border-radius: 8px;
   margin-bottom: 30px;
-  padding: 2%;
+  padding: 30px 4%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .linkedin-container, .git-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px 0px;
+  padding: 20px 0px;
 }
 
 .logo-links {
@@ -292,6 +292,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .email-text {
@@ -307,7 +308,13 @@ ul {
 
 
 .email-icon {
-  font-size: 30px;
+  font-size: 35px;
+}
+
+.contact-tag {
+  font-size: 1.8em;
+  justify-content: center;
+  border-bottom: 3px solid #80CBC4;
 }
 
 /* Footer */
