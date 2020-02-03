@@ -23,7 +23,10 @@ class Projects extends Component {
             </div>
             <div className={project.flipped === true ? '' : 'hide'}>
               <div className='flip-content-container'>
-                <i className='material-icons back-btn' onClick={() => this.props.flipProject(project.id)}>arrow_back</i>
+                <i className='material-icons back-btn'
+                   onClick={() => this.props.flipProject(project.id)}
+                   onKeyPress={() => this.props.flipProject(project.id)}
+                   tabindex='0'>arrow_back</i>
                 <div className='skill-container'>
                 {project.description.map((skill, index) => (
                   <span key={index} className='project-tags'>{skill}</span>
