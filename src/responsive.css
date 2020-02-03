@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
 
   ul {
     width: 89%;
@@ -31,9 +31,13 @@
   .contact-container{
     justify-content: space-between;
   }
+
+  #about {
+    height: calc(100vh - 40px);
+  }
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 900px) {
 
   .project {
     width: 28%;
@@ -61,8 +65,16 @@
     padding: 18px 0px;
   }
 
-  #about, #projects {
-    padding-top: 20px;
+  #projects {
+    padding: 70px 0px;
+  }
+
+  #about, #contact {
+    height: calc(100vh - 60px);
+  }
+
+  .contact-container {
+    font-size: 1.2em;
   }
 
   .footer-container {
@@ -107,8 +119,7 @@
   }
 
   .about-container {
-    width: 68%;
-    padding: 1%;
+    width: 70%;
   }
 
    ul {
@@ -124,7 +135,15 @@
    }
 
    .contact-container {
-     width: 62%;
+     width: 70%;
+   }
+
+   .social-logo {
+     width: 45px;
+   }
+
+   .email-icon {
+     font-size: 45px;
    }
 
    .project-links {
@@ -133,6 +152,10 @@
 
    .app {
      font-size: 1em;
+   }
+
+   .about-container {
+     font-size: 1.4em;
    }
 }
 

@@ -11,7 +11,7 @@ class Contact extends Component {
       <section id='contact'>
         <h3 className='contact-title'>Contact</h3>
         <div className='contact-container'>
-          <h4 className='contact-tag'>Get in touch !</h4>
+          <h4 className='contact-tag'>Get in touch</h4>
           <div className='linkedin-container'>
             <img src={LinkedinLogo} alt='Linkedin-profile' className='social-logo'/>
             <a href='https://www.linkedin.com/in/virgil-avram/' className='logo-links' target="_blank" rel='noopener noreferrer'>View profile</a>
