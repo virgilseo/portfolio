@@ -10,7 +10,7 @@ class Projects extends Component {
         <h3 className='section-title'>Projects</h3>
         <ul>
         {this.props.projects.map((project) => (
-          <li key={project.id} className='project'>
+          <li data-aos="fade-up" data-aos-duration="1300" key={project.id} className='project'>
             <div className={project.flipped === false  ? '' : 'hide'}>
               <div className='content-container'>
                 <h4 className='project-title'>{project.title}</h4>
