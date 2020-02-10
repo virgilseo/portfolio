@@ -24,6 +24,10 @@ class Contact extends Component {
             <i className='material-icons email-icon'>email</i>
             <a href='mailto:virgilavram.dev@gmail.com' className='email-text'>virgilavram.dev@gmail.com</a>
           </div>
+          <div className='location-container'>
+            <i className='material-icons location-icon'>place</i>
+            <span className='location-text'>Düsseldorf, Germany</span>
+          </div>
         </div>
       </section>
     )

@@ -262,7 +262,7 @@ ul {
   align-items: flex-start;
 }
 
-.linkedin-container, .git-container {
+.linkedin-container, .git-container, .location-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,7 +309,7 @@ ul {
 }
 
 
-.email-icon {
+.email-icon, .location-icon {
   font-size: 40px;
 }
 
@@ -318,6 +318,12 @@ ul {
   justify-content: center;
   border-bottom: 3px solid #80CBC4;
 }
+
+.location-text {
+  margin-left: 40px;
+}
+
+
 
 /* Footer */
 
