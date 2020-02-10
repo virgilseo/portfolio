@@ -149,19 +149,20 @@ ul {
 }
 
 .project-btn {
-  background-color: #ffffff;
-  border: 3px solid #80CBC4;
+  border: 2px solid #fff;
   border-radius: 20px;
   font-weight: 600;
-  padding: 6px 35px;
+  padding: 8px 35px;
   font-family: 'Orbitron', sans-serif;
+  color: #fff;
+  background-color: transparent;
 }
 
 .project-btn:hover {
   background-color: #80CBC4;
-  color: #ffffff;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
   cursor: pointer;
+  border: 2px solid #80CBC4;
 }
 
 .button-container {
@@ -177,10 +178,9 @@ ul {
 
 .project-links {
   text-decoration: none;
-  background-color: #ffffff;
-  border: 3px solid #80CBC4;
+  border: 2px solid #fff;
   border-radius: 20px;
-  color: #000000;
+  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -192,8 +192,8 @@ ul {
 
 .project-links:hover {
   background-color: #80CBC4;
-  color: #ffffff;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
+  border: 2px solid #80CBC4;
 }
 
 .flip-content-container {
@@ -213,11 +213,14 @@ ul {
   font-size: 2.1em;
   margin-top: 10px;
   margin-bottom: 20px;
+  padding: 4px;
+  border-radius: 50%;
 }
 
 .back-btn:hover {
   cursor: pointer;
-  color: #80CBC4;
+  background-color: #80CBC4;
+  transition-duration: 0.3s;
 }
 
 .project-tags {
@@ -267,20 +270,20 @@ ul {
 }
 
 .logo-links {
-  margin-left: 30px;
+  margin-left: 40px;
   text-decoration: none;
-  color: #000000;
+  color: #fff;
   border-radius: 20px;
-  font-weight: 600;
+  font-weight: 550;
   padding: 5px 25px;
-  background-color: #ffffff;
-  border: 3px solid #80CBC4;
+  border: 2px solid #fff;
 }
 
 .logo-links:hover {
   color: #ffffff;
   background-color: #80CBC4;
-  transition-duration: 0.2s;
+  transition-duration: 0.3s;
+  border: 2px solid #80CBC4;
 }
 
 .social-logo {
@@ -295,7 +298,7 @@ ul {
 }
 
 .email-text {
-  margin-left: 30px;
+  margin-left: 40px;
   text-decoration: none;
   color: #ffffff;
   border-bottom: 2px solid transparent;
