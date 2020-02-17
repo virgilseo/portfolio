@@ -10,7 +10,7 @@ class Contact extends Component {
 
       <section id='contact'>
         <h3 className='contact-title'>Contact</h3>
-        <div data-aos="fade-right" data-aos-duration="1300" className='contact-container'>
+        <div data-aos="fade-right" data-aos-duration="900" className='contact-container'>
           <h4 className='contact-tag'>Get in touch</h4>
           <div className='linkedin-container'>
             <img src={LinkedinLogo} alt='Linkedin-profile' className='social-logo'/>
