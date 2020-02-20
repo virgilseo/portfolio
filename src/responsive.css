@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
 
   ul {
     width: 89%;
@@ -7,8 +7,8 @@
   }
 
   .project {
-    width: 43%;
-    font-size: 0.9em;
+    width: 40%;
+    font-size: 0.7em;
     align-items: flex-start
   }
 
@@ -31,21 +31,17 @@
   .contact-container{
     justify-content: space-between;
   }
-
-  #about {
-    height: calc(100vh - 40px);
-  }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 950px) {
 
   .project {
     width: 28%;
-    font-size: 1.1em;
+    font-size: 0.8em;
   }
 
   .project-tags {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .header {
@@ -54,7 +50,7 @@
   }
 
   .about-container {
-    font-size: 1.3em;
+    font-size: 1.1em;
   }
 
   .nav-container {
@@ -70,11 +66,11 @@
   }
 
   #about, #contact {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 150px)
   }
 
   .contact-container {
-    font-size: 1.2em;
+    font-size: 1.1em;
   }
 
   .footer-container {
@@ -103,32 +99,24 @@
     background-color: #D8D8D8;
   }
 
-  .project-links {
-    font-size: 0.8em;
+  .project-links, .logo-links {
+    font-size: 0.9em;
   }
 
   .logo-links, .email-text, .location-text {
     margin-left: 50px;
   }
+
+  .inner-header, .inner-nav, .about-container, .contact-container, ul  {
+    width: 75%;
+  }
 }
 
-@media only screen and (min-width: 1350px) {
+@media only screen and (min-width: 1300px) {
 
-  .inner-header {
-    width: 70%;
+  .inner-header, .inner-nav, .about-container, .contact-container, ul  {
+    width: 65%;
   }
-
-  .inner-nav {
-    width: 70%;
-  }
-
-  .about-container {
-    width: 70%;
-  }
-
-   ul {
-     width: 70%;
-   }
 
    .header {
      font-size: 0.9em;
@@ -136,11 +124,9 @@
 
    .project {
      width: 27%;
+     font-size: 1em;
    }
 
-   .contact-container {
-     width: 70%;
-   }
 
    .social-logo {
      width: 45px;
@@ -151,7 +137,7 @@
    }
 
    .project-links {
-     font-size: 0.7em;
+     font-size: 0.9em;
    }
 
    .app {
@@ -159,21 +145,18 @@
    }
 
    .about-container {
-     font-size: 1.4em;
+     font-size: 1.3em;
    }
 }
 
-@media only screen and (min-width: 1300px) {
-
-   .project-links {
-     font-size: 0.9em
-   }
-
-}
 
 @media only screen and (max-width: 360px) {
 
   .header {
     font-size: 0.5em;
+  }
+
+  .project {
+    font-size: 0.8em;
   }
 }
