@@ -9,8 +9,6 @@ import Projects from './Projects.js';
 import Navigation from './Navigation';
 import ProjectInfo from './ProjectInfo';
 
-const projects = ProjectInfo
-
 class App extends Component {
 
   //Set the initial state
@@ -19,7 +17,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.setState({projects: projects})
+    this.setState({projects: ProjectInfo})
   }
 
 
@@ -29,7 +27,7 @@ class App extends Component {
     let flippedProject = this.state.projects.filter((project) => project.id === projectId).map((project) =>
     project.flipped === false ? project.flipped = true : project.flipped = false)
 
-    this.setState({projects: projects})
+    this.setState({projects: ProjectInfo})
     return flippedProject
   }
 

@@ -8,7 +8,7 @@
 
   .project {
     width: 40%;
-    font-size: 0.7em;
+    font-size: 0.9em;
     align-items: flex-start
   }
 
@@ -37,7 +37,7 @@
 
   .project {
     width: 28%;
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .project-tags {
@@ -86,11 +86,7 @@
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.5);
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.3);
+    background: #80CBC4;
   }
 
   /*Track*/
@@ -127,6 +123,10 @@
      font-size: 1em;
    }
 
+   .project-tags {
+     font-size: 1.2em;
+   }
+
 
    .social-logo {
      width: 45px;
@@ -147,6 +147,9 @@
    .about-container {
      font-size: 1.3em;
    }
+   #contact {
+     height: 85vh;
+   }
 }
 
 
@@ -156,7 +159,7 @@
     font-size: 0.5em;
   }
 
-  .project {
-    font-size: 0.8em;
+  .project-tags {
+    font-size: 0.9em;
   }
 }

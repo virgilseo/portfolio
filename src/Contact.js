@@ -9,8 +9,8 @@ class Contact extends Component {
     return(
 
       <section id='contact'>
-        <h3 className='contact-title'>Contact</h3>
-        <div data-aos="fade-right" data-aos-duration="900" className='contact-container'>
+        <h3 className='section-title'>Contact</h3>
+        <div className='contact-container'>
           <h4 className='contact-tag'>Get in touch</h4>
           <div className='linkedin-container'>
             <img src={LinkedinLogo} alt='Linkedin-profile' className='social-logo'/>
@@ -26,7 +26,7 @@ class Contact extends Component {
           </div>
           <div className='location-container'>
             <i className='material-icons location-icon'>place</i>
-            <span className='location-text'>Düsseldorf, Germany</span>
+            <span className='location-text'>Leeuwarden, Netherlands</span>
           </div>
         </div>
       </section>
