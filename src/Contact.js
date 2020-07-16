@@ -9,7 +9,6 @@ class Contact extends Component {
     return(
 
       <section id='contact'>
-        <h3 className='section-title'>Contact</h3>
         <div className='contact-container'>
           <h4 className='contact-tag'>Get in touch</h4>
           <div className='linkedin-container'>

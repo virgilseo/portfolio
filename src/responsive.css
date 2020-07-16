@@ -31,13 +31,40 @@
   .contact-container{
     justify-content: space-between;
   }
+
+  .section-title {
+    align-self: flex-start;
+    margin-left: 6%;
+  }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 700px) {
+  .about-container {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px
+  }
 
+  .bio-container, .tech-container {
+    width: 38%;
+  }
+
+  .footer-container {
+    flex-flow: row;
+    justify-content: space-around;
+  }
+
+}
+
+@media only screen and (min-width: 1050px) {
+
+   .section-title {
+     margin-left: 12%
+   }
   .project {
-    width: 28%;
+    width: 37%;
     font-size: 1em;
+    margin-right: 20px;
   }
 
   .project-tags {
@@ -71,6 +98,8 @@
 
   .contact-container {
     font-size: 1.1em;
+    width: 50%;
+    margin-left: 25%;
   }
 
   .footer-container {
@@ -103,24 +132,27 @@
     margin-left: 50px;
   }
 
-  .inner-header, .inner-nav, .about-container, .contact-container, ul  {
+  .inner-header, .inner-nav, .about-container, ul  {
     width: 75%;
   }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1250px) {
 
-  .inner-header, .inner-nav, .about-container, .contact-container, ul  {
-    width: 65%;
+  .inner-header, .inner-nav, .about-container, ul  {
+    width: 75%;
   }
 
    .header {
      font-size: 0.9em;
    }
-
+   ul {
+     justify-content: flex-start;
+   }
    .project {
-     width: 27%;
+     width: 26%;
      font-size: 1em;
+     margin-right: 30px;
    }
 
    .project-tags {
@@ -149,6 +181,9 @@
    }
    #contact {
      height: 85vh;
+   }
+   .project-links {
+     font-size: 1em;
    }
 }
 
