@@ -1,5 +1,19 @@
+@media only screen and (max-width: 360px) {
 
-@media only screen and (min-width: 550px) {
+  .header {
+    font-size: 0.5em;
+  }
+
+  .project-tags {
+    font-size: 18px;
+  }
+
+  .project-links{
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 600px) {
 
   ul {
     width: 89%;
@@ -7,14 +21,12 @@
   }
 
   .project {
-    width: 40%;
+    width: 45%;
     font-size: 0.9em;
-    align-items: flex-start
+    align-items: flex-start;
+    padding: 2%;
   }
 
-  .project-flipped {
-    align-items: center;
-  }
 
   .inner-nav {
     justify-content: flex-start;
@@ -54,6 +66,10 @@
     justify-content: space-around;
   }
 
+  .project {
+    width: 40%;
+  }
+
 }
 
 @media only screen and (min-width: 1050px) {
@@ -68,7 +84,7 @@
   }
 
   .project-tags {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   .header {
@@ -168,9 +184,6 @@
      font-size: 45px;
    }
 
-   .project-links {
-     font-size: 0.9em;
-   }
 
    .app {
      font-size: 1em;
@@ -182,19 +195,12 @@
    #contact {
      height: 85vh;
    }
-   .project-links {
-     font-size: 1em;
-   }
 }
 
+@media only screen and (min-width: 1440px) {
 
-@media only screen and (max-width: 360px) {
-
-  .header {
-    font-size: 0.5em;
-  }
-
-  .project-tags {
-    font-size: 0.9em;
+  .project {
+    width: 23%;
+    margin-right: 40px;
   }
 }
