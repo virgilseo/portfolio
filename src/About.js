@@ -3,7 +3,7 @@ import ProfilePic from './images/portfolio-pic.jpg';
 
 // Store tech skills text in a array
 
-const skills = ['vue.js', 'tailwind.css', 'react.js', 'angular.js', 'ember.js', 'javascript', 'html', 'css', 'responsive design', 'object oriented programing',
+const skills = ['vue.js', 'react.js', 'typescript', 'angular.js', 'ember.js', 'javascript', 'html', 'tailwind.css','css', 'responsive design', 'object oriented programing',
                 'ajax', 'jquery', 'jasmine.js', 'way-aria', 'test driven development', 'git', 'npm', 'grunt', 'gulp']
 
 class About extends Component {

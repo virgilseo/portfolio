@@ -1,7 +1,7 @@
 @media only screen and (max-width: 360px) {
 
   .header {
-    font-size: 0.5em;
+    font-size: 0.7em;
   }
 
   .project-tags {
@@ -36,9 +36,6 @@
     margin-right: 25px;
   }
 
-  .header {
-    font-size: 0.7em;
-  }
 
   .contact-container{
     justify-content: space-between;
@@ -52,13 +49,22 @@
 
 @media only screen and (min-width: 700px) {
   .about-container {
-    justify-content: space-around;
+    justify-content: flex-start;
     display: flex;
-    margin-top: 50px
+    margin-top: 40px;
   }
 
-  .bio-container, .tech-container {
-    width: 38%;
+  #about {
+    padding-top: 0px;
+  }
+
+  .bio-container {
+    width: 30%;
+    margin-right: 10%;
+  }
+
+  .tech-container {
+    width: 60%;
   }
 
   .footer-container {
@@ -93,7 +99,7 @@
   }
 
   .about-container {
-    font-size: 1.1em;
+    font-size: 1.2em;
   }
 
   .nav-container {
@@ -109,7 +115,11 @@
   }
 
   #about, #contact {
-    height: calc(100vh - 150px)
+    height: calc(100vh - 160px)
+  }
+
+  #about {
+    margin-bottom: 80px;
   }
 
   .contact-container {
@@ -156,11 +166,12 @@
 @media only screen and (min-width: 1250px) {
 
   .inner-header, .inner-nav, .about-container, ul  {
-    width: 75%;
+    width: 70%;
   }
 
    .header {
-     font-size: 0.9em;
+     font-size: 1em;
+     height: 110px;
    }
    ul {
      justify-content: flex-start;
@@ -168,7 +179,7 @@
    .project {
      width: 26%;
      font-size: 1em;
-     margin-right: 30px;
+     margin-right: 25px;
    }
 
    .project-tags {
@@ -189,9 +200,6 @@
      font-size: 1em;
    }
 
-   .about-container {
-     font-size: 1.3em;
-   }
    #contact {
      height: 85vh;
    }
@@ -200,7 +208,7 @@
 @media only screen and (min-width: 1440px) {
 
   .project {
-    width: 23%;
+    width: 25%;
     margin-right: 40px;
   }
 }
