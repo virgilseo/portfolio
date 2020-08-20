@@ -3,7 +3,7 @@ import ProfilePic from './images/portfolio-pic.jpg';
 
 // Store tech skills text in a array
 
-const skills = ['vue.js', 'react.js', 'typescript', 'angular.js', 'ember.js', 'javascript', 'html', 'tailwind.css','css', 'responsive design', 'object oriented programing',
+const skills = ['vue.js', 'react.js', 'typescript', 'angular.js', 'ember.js', 'javascript', 'html', 'tailwind.css','css', 'responsive design', 'object oriented programming',
                 'ajax', 'jquery', 'jasmine.js', 'way-aria', 'test driven development', 'git', 'npm', 'grunt', 'gulp']
 
 class About extends Component {
@@ -17,7 +17,7 @@ class About extends Component {
           <div className='bio-container'>
             <img src={ProfilePic} alt='Profile' className='profile-pic'/>
             <p className="bio"><span className='bio-greeting'>Hey!</span> I am a web developer
-               with a passion for javascript programing, front-end frameworks (React.js / Vue.js)
+               with a passion for javascript programming, front-end frameworks (React.js / Vue.js)
                and UX desing.</p>
             <p className="bio">Aiming to leverage my skills to build visually appealing, bug free and secure
             web based applications.</p>
