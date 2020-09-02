@@ -59,12 +59,12 @@
   }
 
   .bio-container {
-    width: 30%;
+    width: 40%;
     margin-right: 10%;
   }
 
   .tech-container {
-    width: 60%;
+    width: 50%;
   }
 
   .footer-container {
@@ -182,10 +182,9 @@
      margin-right: 25px;
    }
 
-   .project-tags {
-     font-size: 1.2em;
+   .project-links {
+     padding: 4px 10px;
    }
-
 
    .social-logo {
      width: 45px;
@@ -210,5 +209,17 @@
   .project {
     width: 25%;
     margin-right: 40px;
+  }
+
+  .bio-container {
+    width: 30%;
+  }
+
+  .tech-container {
+    width: 60%;
+  }
+
+  .project-links {
+    padding: 4px 14px;
   }
 }

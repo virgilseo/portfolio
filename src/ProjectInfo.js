@@ -10,7 +10,7 @@ import VueIcon from './images/vue.png';
 const ProjectInfo = [
   {id: 0, image: VueIcon, flipped: false, gitLink:'https://github.com/virgilseo/pulse',
    liveLink: 'https://pulse-planner.surge.sh/', title:'Pulse',
-   tag:'Discover events and things to do in Amsterdam',
+   tag:'Event planner app featuring select events in the city of Amsterdam',
    description:['Vue.js', 'JavaScript', 'Css', 'Html', 'Responsive Design', 'Api', 'TypeScript'] },
   {id: 1, image: VueIcon, flipped: false, gitLink:'https://gitlab.com/virgilavram.dev/ritekit-task',
    liveLink: 'https://enhancepost.surge.sh/', title:'Auto Hashtags',
